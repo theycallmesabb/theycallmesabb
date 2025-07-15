@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 
 <p align="center">
-  <img src="zoro-brush.svg" alt="AKA ZORO Brush Stroke"/>
+  <img src="zoro-rengoku.svg" alt="Zoro Rengoku Animation"/>
 </p>
 
 <h3 align="center">A passionate backend developer</h3>
