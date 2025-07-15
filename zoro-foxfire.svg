@@ -27,11 +27,11 @@
     <!-- The text, with a GitHub-safe font and corrected tags -->
     <text x="50%" y="60%"
           font-family="Impact, Charcoal, sans-serif"
-          font-size="85" text-anchor="middle"
+          font-size="70" text-anchor="middle"
           fill="#00FFA3" stroke="black" stroke-width="1.5"
           filter="url(#neon-glow)"
           opacity="0">
-        AKA ZOR<tspan font-size="80">o</tspan><tspan font-size="70">o</tspan><tspan font-size="60">o</tspan><tspan font-size="50">o</tspan>
+        AKA ZOR<tspan font-size="65">o</tspan><tspan font-size="58">o</tspan><tspan font-size="50">o</tspan><tspan font-size="42">o</tspan>
         <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.5s" fill="freeze"/>
     </text>
 </svg>
