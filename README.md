@@ -1,9 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
-<p1>A passionate Backend Developer</p1>
 <p align="center">
   <img src="zoro-foxfire.svg" alt="Zoro Foxfire Animation"/>
 </p>
-
+<p>A passionate Backend Developer</p>
 <p align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXdrcnh5bWIzaDY2eGVkMnRjeHhjdWI2Z2tmNW8xbXFkYmt2bnpvMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9az09tlYyYNfq/giphy.gif" width="300" />
 </p>
