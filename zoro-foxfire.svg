@@ -1,28 +1,28 @@
 <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150">
     <defs>
-        <!-- Animated gradient to create the molten magma effect -->
-        <linearGradient id="magma-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#FFD700">
-                <animate attributeName="stop-color" values="#FFD700; #FF8C00; #FF4500; #FFD700" dur="4s" repeatCount="indefinite" />
+        <!-- Animated gradient for the Haki effect -->
+        <linearGradient id="haki-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#9400D3"> <!-- Deep Purple -->
+                <animate attributeName="stop-color" values="#9400D3; #4B0082; #39FF14; #9400D3" dur="4s" repeatCount="indefinite" />
             </stop>
-            <stop offset="100%" stop-color="#FF4500">
-                <animate attributeName="stop-color" values="#FF4500; #DC143C; #FF8C00; #FF4500" dur="4s" repeatCount="indefinite" />
+            <stop offset="100%" stop-color="#39FF14"> <!-- Zoro Green -->
+                <animate attributeName="stop-color" values="#39FF14; #FFFFFF; #4B0082; #39FF14" dur="4s" repeatCount="indefinite" />
             </stop>
         </linearGradient>
     </defs>
 
     <rect width="100%" height="100%" fill="transparent"/>
 
-    <!-- The main text with the magma fill -->
+    <!-- The main text with the Haki fill and smaller font size -->
     <text x="50%" y="55%"
           font-family="Impact, Charcoal, sans-serif"
-          font-size="90" text-anchor="middle"
-          fill="url(#magma-gradient)" stroke="black" stroke-width="2.5">
+          font-size="80" text-anchor="middle" <!-- Font size reduced from 90 to 80 -->
+          fill="url(#haki-gradient)" stroke="black" stroke-width="2.5">
         AKA ZORO.
     </text>
 
-    <!-- Flying Embers Effect -->
-    <g fill="#FFD700">
+    <!-- Flying Embers Effect (now Haki particles) -->
+    <g fill="#FFFFFF"> <!-- Embers are now white Haki sparks -->
         <circle cx="100" cy="80" r="3" opacity="0">
             <animateTransform attributeName="transform" type="translate" values="0,0; 50,-30; 100,-60" dur="2s" begin="0s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values="0; 1; 0" dur="2s" begin="0s" repeatCount="indefinite"/>
