@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&size=28&pause=1000&color=00FF66&vCenter=true&width=300&lines=AKA+Zoro" alt="glitch style" />
+  <img src="https://img.shields.io/badge/A.K.A-Zoro-00ff99?style=for-the-badge&logo=github&logoColor=white" />
 </p>
-
-
 <h3 align="center">A passionate backend developer </h3>
 <p align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXdrcnh5bWIzaDY2eGVkMnRjeHhjdWI2Z2tmNW8xbXFkYmt2bnpvMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9az09tlYyYNfq/giphy.gif" width="300" />
