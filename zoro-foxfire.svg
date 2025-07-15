@@ -1,43 +1,58 @@
 <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150">
     <defs>
-        <!-- Animated gradient for the Haki effect -->
-        <linearGradient id="haki-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#9400D3"> <!-- Deep Purple -->
-                <animate attributeName="stop-color" values="#9400D3; #4B0082; #39FF14; #9400D3" dur="4s" repeatCount="indefinite" />
-            </stop>
-            <stop offset="100%" stop-color="#39FF14"> <!-- Zoro Green -->
-                <animate attributeName="stop-color" values="#39FF14; #FFFFFF; #4B0082; #39FF14" dur="4s" repeatCount="indefinite" />
-            </stop>
-        </linearGradient>
+        <!-- Filter for the green flame effect inside the text -->
+        <filter id="green-flames">
+            <!-- Generate procedural noise -->
+            <feTurbulence type="fractalNoise" baseFrequency="0.03 0.1" numOctaves="2" result="noise">
+                <!-- Animate the noise to make it look like churning flames -->
+                <animate attributeName="baseFrequency" dur="2s" values="0.03 0.1; 0.04 0.12; 0.03 0.1" repeatCount="indefinite"/>
+            </feTurbulence>
+            <!-- Use the noise to distort a green fill -->
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="15" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+
+        <!-- Filter for the outer glow -->
+        <filter id="aura-glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
     </defs>
 
     <rect width="100%" height="100%" fill="transparent"/>
 
-    <!-- The main text with the Haki fill and smaller font size -->
+    <!-- Layer 1: The Aura Glow (behind everything) -->
     <text x="50%" y="55%"
           font-family="Impact, Charcoal, sans-serif"
-          font-size="80" text-anchor="middle" <!-- Font size reduced from 90 to 80 -->
-          fill="url(#haki-gradient)" stroke="black" stroke-width="2.5">
-        AKA ZORO.
+          font-size="85" text-anchor="middle"
+          fill="#39FF14" filter="url(#aura-glow)" opacity="0.7">
+                  AKA ZORO
     </text>
 
-    <!-- Flying Embers Effect (now Haki particles) -->
-    <g fill="#FFFFFF"> <!-- Embers are now white Haki sparks -->
-        <circle cx="100" cy="80" r="3" opacity="0">
-            <animateTransform attributeName="transform" type="translate" values="0,0; 50,-30; 100,-60" dur="2s" begin="0s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="0; 1; 0" dur="2s" begin="0s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="250" cy="60" r="2.5" opacity="0">
-            <animateTransform attributeName="transform" type="translate" values="0,0; -40,40; -80,80" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="0; 1; 0" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="450" cy="90" r="3.5" opacity="0">
-            <animateTransform attributeName="transform" type="translate" values="0,0; 30,-50; 60,-100" dur="2.2s" begin="1s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="0; 1; 0" dur="2.2s" begin="1s" repeatCount="indefinite"/>
-        </circle>
-         <circle cx="500" cy="70" r="2" opacity="0">
-            <animateTransform attributeName="transform" type="translate" values="0,0; -60,-30; -120,-60" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="0; 1; 0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-        </circle>
+    <!-- Layer 2: Black Haki Lightning -->
+    <g stroke="black" stroke-width="2" fill="none" stroke-linecap="round">
+        <!-- Lightning Arc 1 -->
+        <path d="M50 40 Q 150 20, 250 50 T 450 40" opacity="0">
+            <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+        </path>
+        <!-- Lightning Arc 2 -->
+        <path d="M550 110 Q 450 130, 350 100 T 150 110" opacity="0">
+            <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.5s" repeatCount="indefinite"/>
+        </path>
+         <!-- Lightning Arc 3 -->
+        <path d="M80 120 Q 200 100, 300 125 T 500 115" opacity="0">
+            <animate attributeName="opacity" values="0;1;0" dur="2s" begin="0.2s" repeatCount="indefinite"/>
+        </path>
     </g>
+
+    <!-- Layer 3: The Main Text with Flame Effect -->
+    <text x="50%" y="55%"
+          font-family="Impact, Charcoal, sans-serif"
+          font-size="85" text-anchor="middle"
+          fill="#39FF14" stroke="black" stroke-width="1.5"
+          filter="url(#green-flames)">
+        AKA ZORO.
+    </text>
 </svg>
