@@ -1,43 +1,44 @@
 <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150">
     <defs>
-        <!-- Define the text once to reuse it efficiently -->
-        <text id="zoro-text" x="50%" y="50%"
-              font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
-              font-size="85" text-anchor="middle"
-              stroke-linejoin="round" stroke-width="3" stroke="black">
-            AKA ZORO.
-        </text>
+        <!-- This gradient creates the animated slash effect -->
+        <linearGradient id="slash-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#004d00">
+                <animate attributeName="offset" values="-0.5; 1.5" dur="2s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="50%" stop-color="#39FF14">
+                <animate attributeName="offset" values="0; 2" dur="2s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" stop-color="#FFFFFF">
+                <animate attributeName="offset" values="0.5; 2.5" dur="2s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+
+        <!-- A subtle texture pattern -->
+        <pattern id="texture" patternUnits="userSpaceOnUse" width="10" height="10">
+            <path d="M-5,0 l15,0" stroke="white" stroke-width="0.5" stroke-opacity="0.1"/>
+        </pattern>
     </defs>
 
-    <rect width="100%" height="100%" fill="transparent"/>
-
-    <!-- 
-        The animation is built from 4 layers, rendered from bottom to top.
-        Each layer has a different 'begin' time to create the staggered effect.
-        The animation values directly replicate the 'wave' keyframes.
-    -->
-
-    <!-- Layer 4 (Bottom) - begin="-0.2s" -->
-    <use href="#zoro-text" fill="#005C29">
-        <animateTransform attributeName="transform" type="scale" dur="2s" repeatCount="indefinite" begin="-0.2s"
-                          values="0.95; 1.05; 1.05; 0.95; 0.95" keyTimes="0; 0.4; 0.5; 0.9; 1"/>
-    </use>
-
-    <!-- Layer 3 - begin="0.05s" -->
-    <use href="#zoro-text" fill="#008F41">
-        <animateTransform attributeName="transform" type="scale" dur="2s" repeatCount="indefinite" begin="0.05s"
-                          values="0.95; 1.05; 1.05; 0.95; 0.95" keyTimes="0; 0.4; 0.5; 0.9; 1"/>
-    </use>
-
-    <!-- Layer 2 - begin="0.3s" -->
-    <use href="#zoro-text" fill="#00C458">
-        <animateTransform attributeName="transform" type="scale" dur="2s" repeatCount="indefinite" begin="0.3s"
-                          values="0.95; 1.05; 1.05; 0.95; 0.95" keyTimes="0; 0.4; 0.5; 0.9; 1"/>
-    </use>
-
-    <!-- Layer 1 (Top) - begin="0.55s" -->
-    <use href="#zoro-text" fill="#39FF14">
-        <animateTransform attributeName="transform" type="scale" dur="2s" repeatCount="indefinite" begin="0.55s"
-                          values="0.95; 1.05; 1.05; 0.95; 0.95" keyTimes="0; 0.4; 0.5; 0.9; 1"/>
-    </use>
+    <!-- The group containing all the custom-drawn letters -->
+    <g id="zoro-text-paths" fill="url(#slash-gradient)" stroke="black" stroke-width="1.5">
+        <!-- A -->
+        <path d="M73.1,111.4l-1.9-8.4L55.5,25.1h29.3l-15.7,77.9l-1.9,8.4h-7.8h-8.2H73.1z M80.9,94.6l4.7-23.2l10.8-53.5h-0.4l-10.8,53.5l-4.7,23.2z M60.4,118.4h14.1l16.1-105.9H76.5l-11.4,76.4l-11.4-76.4H39.6L60.4,118.4z"/>
+        <!-- K -->
+        <path d="M165.4,118.4H151v-35l-15.9,35h-13l18.4-38.2L122.1,12.5h14.2l13.6,29.8V12.5h15.4V118.4z"/>
+        <!-- A -->
+        <path d="M232.8,111.4l-1.9-8.4l-15.7-77.9h29.3l-15.7,77.9l-1.9,8.4h-7.8h-8.2H232.8z M240.6,94.6l4.7-23.2l10.8-53.5h-0.4l-10.8,53.5l-4.7,23.2z M219.9,118.4h14.1l16.1-105.9h-14.1l-11.4,76.4l-11.4-76.4h-14.1L219.9,118.4z"/>
+        <!-- Z -->
+        <path d="M319.4,118.4H286v-11.5l28.2-60.1h-27.2V12.5h35.6v10.6L290.4,104.5h29V118.4z"/>
+        <!-- O -->
+        <path d="M390.2,65.5c0,27.4-22.1,49.6-49.4,49.6s-49.4-22.2-49.4-49.6s22.1-49.6,49.4-49.6S390.2,38.1,390.2,65.5z M309.1,65.5c0,18,14.6,32.6,32.6,32.6s32.6-14.6,32.6-32.6s-14.6-32.6-32.6-32.6S309.1,47.5,309.1,65.5z"/>
+        <!-- R -->
+        <path d="M465.9,118.4h-13.8V65.5L421.9,118.4h-11.8l23.8-40.2L410.2,12.5h14.7l13.8,26.1V12.5h15.4V118.4z"/>
+        <!-- O -->
+        <path d="M549.9,65.5c0,27.4-22.1,49.6-49.4,49.6s-49.4-22.2-49.4-49.6s22.1-49.6,49.4-49.6S549.9,38.1,549.9,65.5z M468.8,65.5c0,18,14.6,32.6,32.6,32.6s32.6-14.6,32.6-32.6s-14.6-32.6-32.6-32.6S468.8,47.5,468.8,65.5z"/>
+        <!-- . -->
+        <path d="M583.7,115.4c0,2.3-1.8,4.1-4.1,4.1s-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1S583.7,113.2,583.7,115.4z"/>
+    </g>
+    
+    <!-- Texture overlay -->
+    <rect width="100%" height="100%" fill="url(#texture)"/>
 </svg>
