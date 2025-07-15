@@ -1,9 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 
 <p align="center">
-  <img src="zoro-enma.svg" alt="Zoro Enma Haki Animation"/>
+  <img src="zoro-foxfire.svg" alt="Zoro Foxfire Animation"/>
 </p>
-
 <h3 align="center">A passionate backend developer</h3>
 
 <p align="center">
