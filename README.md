@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 <p align="center">
-<img src="zoro-neon-color-change.svg" alt="Zoro Neon Animation"/>
+<img src="zoro-foxfire.svg" alt="Zoro Neon Animation"/>
 </p>
 
 <p align="center">
