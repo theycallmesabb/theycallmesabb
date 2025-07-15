@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Sabyasachee a passionate backend developer</h1>
-
+<h1 align="center">Hi 👋, I'm Sabyasachee</h1>
+<p1>A passionate Backend Developer</p1>
 <p align="center">
   <img src="zoro-foxfire.svg" alt="Zoro Foxfire Animation"/>
 </p>
