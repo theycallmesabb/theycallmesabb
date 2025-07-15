@@ -1,10 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&pause=700&color=FF0000&center=true&vCenter=true&width=220&lines=AKA+Shiffu" alt="Typing SVG" />
+ <p align="center">
+  <img src="https://readme-typing-gifs.vercel.app/api?text=AKA%20Zoro&duration=3000&style=glitch&color=00ff99&center=true" alt="aka zoro animation" />
 </p>
-
-
-
 <h3 align="center">A passionate backend developer </h3>
 <p align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXdrcnh5bWIzaDY2eGVkMnRjeHhjdWI2Z2tmNW8xbXFkYmt2bnpvMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9az09tlYyYNfq/giphy.gif" width="300" />
