@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F5FF&center=true&vCenter=true&width=200&lines=AKA+Shiffu" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&pause=900&color=39FF14&center=true&vCenter=true&width=220&lines=AKA+Shiffu" alt="Typing SVG" />
 </p>
+
 <h3 align="center">A passionate backend developer </h3>
 <p align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXdrcnh5bWIzaDY2eGVkMnRjeHhjdWI2Z2tmNW8xbXFkYmt2bnpvMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9az09tlYyYNfq/giphy.gif" width="300" />
