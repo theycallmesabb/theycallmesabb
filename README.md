@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00FF99&center=true&vCenter=true&repeat=false&lines=%F0%9F%8C%8A+AKA+Zoro+%F0%9F%94%9A" alt="aka zoro animated" />
+  <img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&size=28&pause=1000&color=00FF66&vCenter=true&width=300&lines=AKA+Zoro" alt="glitch style" />
 </p>
+
 
 <h3 align="center">A passionate backend developer </h3>
 <p align="center">
