@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
- <p align="center">
-  <img src="https://readme-typing-gifs.vercel.app/api?text=AKA%20Zoro&duration=3000&style=glitch&color=00ff99&center=true" alt="aka zoro animation" />
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDFrMjdvdnoydmJndTh3ODNubm5zMHl6Nm10OXhjbTkwb3ZodGsyZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/o3DfUMtPVH6LCEZKxO/giphy.gif" width="300" alt="aka zoro" />
 </p>
 <h3 align="center">A passionate backend developer </h3>
 <p align="center">
