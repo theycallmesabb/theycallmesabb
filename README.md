@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&pause=900&color=39FF14&center=true&vCenter=true&width=220&lines=AKA+Shiffu" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&pause=1000&color=FFA500&center=true&vCenter=true&width=210&lines=AKA+Shiffu" alt="Typing SVG" />
 </p>
+
 
 <h3 align="center">A passionate backend developer </h3>
 <p align="center">
