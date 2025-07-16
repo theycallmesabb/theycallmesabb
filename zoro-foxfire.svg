@@ -46,7 +46,7 @@
     <g mask="url(#reveal-mask)">
         <text class="main-text" x="50%" y="130"
               font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
-              font-size="70"
+              font-size="55"
               text-anchor="middle"
               letter-spacing="3"
               filter="url(#ink-brush-effect)"
