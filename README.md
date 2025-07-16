@@ -14,7 +14,7 @@
 </p>
 
 <!-- 📫 Contact -->
-<p><strong>📫 How to reach me:</strong> thakursabya7@gmail.com</p>
+<p><strong>📫 How to reach me:</strong> <a href="mailto:thakursabya7@gmail.com">thakursabya7@gmail.com</a></p>
 
 <!-- 🛠️ Languages and Tools -->
 <h3 align="left">Languages and Tools:</h3>
