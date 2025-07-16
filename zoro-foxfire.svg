@@ -1,39 +1,125 @@
-<!-- 🔥 Luffy GIF in the Top-Right Corner -->
-<div align="right">
-  <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="120"
-       style="border: 2px solid #F1FAEE; border-radius: 8px; background: #1a1a1a; padding: 4px;" />
-</div>
+<svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
 
-<!-- 👋 Main Heading -->
-<h1 align="center">Hi 👋, I'm Sabyasachee</h1>
+    <defs>
 
-<!-- ✅ Add horizontal line properly -->
-<hr style="width: 60%; margin: auto; border: 1px solid #444;" />
+        <style>
 
-<!-- 🌀 AKA LUFFY SVG (smaller) -->
-<p align="center">
-  <img src="zoro-foxfire.svg" alt="AKA LUFFY Animation" width="400"/>
-</p>
+            /* Default styles for LIGHT MODE */
 
-<!-- 💬 Description -->
-<p align="center">
-  <strong>Forging robust backends with three-sword style precision.</strong>
-</p>
+            .haki-main-color { stroke: #D72323; } /* Strong Red */
 
-<!-- 📫 Contact -->
-<p><strong>📫 How to reach me:</strong> thakursabya7@gmail.com</p>
+            .haki-shadow-color { stroke: #212529; } /* Dark Charcoal */
 
-<!-- 🛠️ Languages and Tools -->
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <!-- [unchanged icons list] -->
-</p>
+            .main-text { fill: #24292e; } /* Dark Charcoal Text */
 
-<!-- 🧠 GitHub Stats -->
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=theycallmesabb&show_icons=true&locale=en&layout=compact" alt="theycallmesabb" />
-</p>
+            .spark-color { fill: #D72323; }
 
-<p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=theycallmesabb&" alt="theycallmesabb" />
-</p>
+
+
+            /* Styles for DARK MODE */
+
+            @media (prefers-color-scheme: dark) {
+
+                .haki-main-color { stroke: #E63946; } /* Brighter Red */
+
+                .haki-shadow-color { stroke: #000000; } /* Pure Black */
+
+                .main-text { fill: #F1FAEE; } /* Light-colored Text */
+
+                .spark-color { fill: #A8DADC; }
+
+            }
+
+        </style>
+
+
+
+        <filter id="ink-brush-effect">
+
+            <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="turbulence"/>
+
+            <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+
+        </filter>
+
+
+
+        <filter id="subtle-glow">
+
+             <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+
+             <feMerge>
+
+                <feMergeNode in="coloredBlur"/>
+
+                <feMergeNode in="SourceGraphic"/>
+
+            </feMerge>
+
+        </filter>
+
+        
+
+        <mask id="reveal-mask">
+
+            <rect width="100%" height="100%" fill="black"/>
+
+            <circle cx="300" cy="125" r="0" fill="white">
+
+                <animate attributeName="r" from="0" to="500" dur="0.8s" begin="0.5s" fill="freeze"/>
+
+            </circle>
+
+        </mask>
+
+    </defs>
+
+
+
+    <g opacity="0" stroke-linecap="round" filter="url(#subtle-glow)">
+
+        <animate attributeName="opacity" values="0; 1; 0" dur="0.6s" begin="0.4s" fill="freeze"/>
+
+        <path class="haki-main-color" d="M300 125 L 150 50 M300 125 L 450 80 M300 125 L 200 200 M300 125 L 400 180" stroke-width="3"/>
+
+        <path class="haki-shadow-color" d="M300 125 L 180 80 M300 125 L 420 150 M300 125 L 250 180 M300 125 L 350 70" stroke-width="5"/>
+
+    </g>
+
+    
+
+    <g mask="url(#reveal-mask)">
+
+        <text class="main-text" x="50%" y="130"
+
+              font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+
+              font-size="55"
+
+              text-anchor="middle"
+
+              letter-spacing="3"
+
+              filter="url(#ink-brush-effect)"
+
+              opacity="0">
+
+            AKA LUFFY
+
+            <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.6s" fill="freeze"/>
+
+        </text>
+
+    </g>
+
+    
+
+    <circle class="spark-color" cx="0" cy="125" r="4">
+
+        <animateMotion path="M0,0 C150,50 450,150 600,100" dur="0.4s" fill="freeze"/>
+
+        <animate attributeName="r" from="4" to="0" dur="0.1s" begin="0.4s" fill="freeze"/>
+
+    </circle>
+
+</svg>
