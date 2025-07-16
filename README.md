@@ -1,11 +1,11 @@
-<!-- 🔥 Luffy GIF in the Top-Right Corner -->
-<div align="right">
+<!-- 👋 Main Heading -->
+<h1 align="center" style="margin-bottom: 0; padding-bottom: 0; border: none;">Hi 👋, I'm Sabyasachee</h1>
+
+<!-- 🔥 Luffy GIF floated to top-right with spacing -->
+<div style="position: absolute; top: 10px; right: 10px;">
   <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="120"
        style="border: 2px solid #F1FAEE; border-radius: 8px; background: #1a1a1a; padding: 4px;" />
 </div>
-
-<!-- 👋 Main Heading -->
-<h1 align="center" style="margin-bottom: 0; padding-bottom: 0; border: none;">Hi 👋, I'm Sabyasachee</h1>
 
 <!-- 🌀 AKA LUFFY SVG (smaller) -->
 <p align="center" style="margin-top: 0; padding-top: 0;">
