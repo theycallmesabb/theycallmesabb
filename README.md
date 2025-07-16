@@ -8,7 +8,7 @@
 
 <!-- Move image closer to text with tighter spacing -->
 <p align="center">
-  <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="130"
+  <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="220"
        style="border: 3px solid #F1FAEE; border-radius: 8px; background: #1a1a1a; padding: 5px;" />
 </p>
 
