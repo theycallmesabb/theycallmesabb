@@ -7,9 +7,6 @@
 <!-- 👋 Main Heading -->
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 
-<!-- ✅ Add horizontal line properly -->
-<hr style="width: 60%; margin: auto; border: 1px solid #444;" />
-
 <!-- 🌀 AKA LUFFY SVG (smaller) -->
 <p align="center">
   <img src="zoro-foxfire.svg" alt="AKA LUFFY Animation" width="400"/>
