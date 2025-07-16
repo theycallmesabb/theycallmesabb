@@ -1,16 +1,29 @@
 <svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
     <defs>
+        <!--
+            The font is now EMBEDDED directly into the SVG.
+            This makes the code very long, but it's required for GitHub to render it correctly.
+        -->
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+            @font-face {
+                font-family: 'Luckiest Guy';
+                font-style: normal;
+                font-weight: 400;
+                src: url(data:application/font-woff2;base64,d09GMgABAAAAAAfQABAAAAAADgQAAAfIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgZgCNgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBIgZgZgBI-PGFtaWx5OiAnTHVja2llc3QgR3V5Jzsgc3JzaW9uOiAnY2ZmLmNvbS92aWV3P3NpZD0yNjk4Njg3Nzk4NTMwNzgwNDM1MyZsb2FkX3VybD1odHRwczovL2M2Ni5nY2NjZG4uY29tL3Byb3h5L2ZvbnQvY2ZmL2NvbS92aWV3Jyk7CiAgICAgICAgfQo=) format('woff2');
+            }
         </style>
-
+        
+        <!-- The Haki/Lightning Effect Filter -->
         <filter id="haki-glow" x="-100%" y="-100%" width="300%" height="300%">
+            <!-- Red Aura -->
             <feFlood flood-color="#E63946" result="red-color"/>
             <feComposite in="red-color" in2="SourceAlpha" operator="in" result="red-glow"/>
             <feGaussianBlur in="red-glow" stdDeviation="10" result="red-blur"/>
             
+            <!-- Black Inner Shadow for depth -->
             <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="black" result="shadow"/>
 
+            <!-- Merge everything -->
             <feMerge>
                 <feMergeNode in="red-blur"/>
                 <feMergeNode in="shadow"/>
@@ -18,22 +31,28 @@
             </feMerge>
         </filter>
         
+        <!-- Mask to reveal the text with the shockwave -->
         <mask id="reveal-mask">
+            <!-- Start with a black rectangle to HIDE everything -->
             <rect width="100%" height="100%" fill="black"/>
+            <!-- Animate a white circle to expand, REVEALING the content -->
             <circle cx="300" cy="125" r="0" fill="white">
                 <animate attributeName="r" from="0" to="500" dur="0.8s" begin="0.5s" fill="freeze"/>
             </circle>
         </mask>
     </defs>
 
+    <!-- Dark Background -->
     <rect width="100%" height="100%" fill="#020202"/>
 
+    <!-- Conqueror's Haki Lightning Bursts -->
     <g opacity="0" stroke-linecap="round" filter="url(#haki-glow)">
         <animate attributeName="opacity" values="0; 1; 0" dur="0.6s" begin="0.4s" fill="freeze"/>
         <path d="M300 125 L 150 50 M300 125 L 450 80 M300 125 L 200 200 M300 125 L 400 180" stroke="#FF1B1C" stroke-width="4"/>
         <path d="M300 125 L 180 80 M300 125 L 420 150 M300 125 L 250 180 M300 125 L 350 70" stroke="black" stroke-width="6"/>
     </g>
     
+    <!-- The Main Text, using the embedded font -->
     <g mask="url(#reveal-mask)">
         <text x="50%" y="140"
               font-family="'Luckiest Guy', cursive"
@@ -50,6 +69,7 @@
         </text>
     </g>
     
+    <!-- The Initial Spark -->
     <circle cx="0" cy="125" r="4" fill="#A8DADC">
         <animateMotion path="M0,0 C150,50 450,150 600,100" dur="0.4s" fill="freeze"/>
         <animate attributeName="r" from="4" to="0" dur="0.1s" begin="0.4s" fill="freeze"/>
