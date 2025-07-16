@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 
-
+<p align="center">
+<img src="zoro-foxfire.svg" alt="Zoro Neon Animation"/>
+</p>
 <p align="center">
 <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="300" />
 </p>
