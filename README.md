@@ -9,9 +9,7 @@
   <img src="zoro-foxfire.svg" alt="AKA LUFFY Animation" width="600"/>
 </p>
 
-<p align="center" style="margin-top: -20px;">
-  <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="130" />
-</p>
+
 
 <!-- Move image closer to text with tighter spacing -->
 
