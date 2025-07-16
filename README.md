@@ -5,10 +5,10 @@
 </div>
 
 <!-- 👋 Main Heading -->
-<h1 align="center">Hi 👋, I'm Sabyasachee</h1>
+<h1 align="center" style="margin-bottom: 0; padding-bottom: 0; border: none;">Hi 👋, I'm Sabyasachee</h1>
 
 <!-- 🌀 AKA LUFFY SVG (smaller) -->
-<p align="center">
+<p align="center" style="margin-top: 0; padding-top: 0;">
   <img src="zoro-foxfire.svg" alt="AKA LUFFY Animation" width="400"/>
 </p>
 
