@@ -3,7 +3,7 @@
 <p align="center">
 <img src="zoro-foxfire.svg" alt="Zoro Neon Animation"/>
 </p>
-<p align="center">
+<p align="left">
 <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="300" />
 </p>
 <h3 align="center">Forging robust backends with three-sword style precision.</h3>
