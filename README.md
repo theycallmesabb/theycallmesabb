@@ -3,7 +3,7 @@
 <br/>
 
 <p align="center">
-  <img src="zoro-.svg" alt="AKA LUFFY Animation" width="600"/>
+  <img src="zoro-foxfire.svg" alt="AKA LUFFY Animation" width="220"/>
 </p>
 
 <!-- Move image closer to text with tighter spacing -->
