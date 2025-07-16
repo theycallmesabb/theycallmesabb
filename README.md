@@ -1,14 +1,16 @@
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 
+<br/>
+
+<h2 align="center">AKA LUFFY</h2>
+
+<!-- Move image closer to text with tighter spacing -->
+<p align="center" style="margin-top: -20px;">
+  <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="130" />
+</p>
+
 <p align="center">
-<img src="zoro-foxfire.svg" alt="Zoro Neon Animation"/>
-</p>
-<p align="Right Aligned">
-<img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="150" />
-</p>
-<h3 align="center">Forging robust backends with three-sword style precision.</h3>
-<p align="left">
-<img src="https://komarev.com/ghpvc/?username=theycallmesabb&label=Profile%20views&color=0e75b6&style=flat" alt="theycallmesabb" />
+  <strong>Forging robust backends with three-sword style precision.</strong>
 </p>
 
 <p align="left">
