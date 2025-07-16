@@ -11,8 +11,8 @@
   <strong>Forging robust backends with three-sword style precision.</strong>
 </p>
 
-<!-- 📫 Contact -->
-<p><strong>📫 How to reach me:</strong> thakursabya7@gmail.com</p>
+<!-- 📢 Contact -->
+<p><strong>📢 How to reach me:</strong> thakursabya7@gmail.com</p>
 
 <!-- 🛠️ Languages and Tools -->
 <h3 align="left">Languages and Tools:</h3>
@@ -29,8 +29,15 @@
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=theycallmesabb&" alt="theycallmesabb" />
 </p>
 
-<!-- 🔥 Luffy GIF Floating Bottom Right -->
-<div style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+<!-- 🔥 Luffy GIF Floating Bottom Right with Animation -->
+<style>
+@keyframes floaty {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+</style>
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 999; animation: floaty 3s ease-in-out infinite;">
   <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="120"
        style="border: 2px solid #F1FAEE; border-radius: 8px; background: #1a1a1a; padding: 4px;" />
 </div>
