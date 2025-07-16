@@ -2,7 +2,9 @@
 
 <br/>
 
-<h2 align="center">AKA LUFFY</h2>
+<p align="center">
+  <img src="zoro-.svg" alt="AKA LUFFY Animation" width="600"/>
+</p>
 
 <!-- Move image closer to text with tighter spacing -->
 <p align="center" style="margin-top: -20px;">
