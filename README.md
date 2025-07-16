@@ -1,3 +1,7 @@
+<div align="right">
+  <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="120"
+       style="border: 2px solid #F1FAEE; border-radius: 8px; background: #1a1a1a; padding: 4px;" />
+</div>
 <h1 align="center">Hi 👋, I'm Sabyasachee</h1>
 
 <br/>
@@ -5,7 +9,6 @@
 <p align="center">
   <img src="zoro-foxfire.svg" alt="AKA LUFFY Animation" width="220"/>
 </p>
-
 <!-- Move image closer to text with tighter spacing -->
 <p align="center">
   <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="220"
