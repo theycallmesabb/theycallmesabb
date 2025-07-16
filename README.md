@@ -1,16 +1,12 @@
 <!-- 👋 Main Heading -->
 <h1 align="center" style="margin-bottom: 0; padding-bottom: 0; border: none;">Hi 👋, I'm Sabyasachee</h1>
 
-<!-- 🔥 Luffy GIF floated to top-right with spacing -->
-<div style="position: absolute; top: 10px; left: 10px;">
-  <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="120"
-       style="border: 2px solid #F1FAEE; border-radius: 8px; background: #1a1a1a; padding: 4px;" />
-</div>
-
-<!-- 🌀 AKA LUFFY SVG (smaller) -->
-<p align="center" style="margin-top: 0; padding-top: 0;">
+<!-- 🌀 AKA LUFFY SVG (smaller) with Luffy GIF next to it -->
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px;">
   <img src="zoro-foxfire.svg" alt="AKA LUFFY Animation" width="400"/>
-</p>
+  <img src="https://media.tenor.com/Rovwo0FE-KwAAAAi/one-piece-onepiece.gif" width="100"
+       style="margin-left: 20px; border: 2px solid #F1FAEE; border-radius: 8px; background: #1a1a1a; padding: 4px;" />
+</div>
 
 <!-- 💬 Description -->
 <p align="center">
