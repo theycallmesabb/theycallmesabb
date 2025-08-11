@@ -1,7 +1,7 @@
 <!-- 👋 Main Heading -->
 <h1 align="center" style="margin-bottom: 0; padding-bottom: 0; border: none;">Hi 👋, I'm Sabyasachee</h1>
-<div align="right">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3b4607a1-1cc6-41f1-926f-892ae880e7a5" width="500">
+<div align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3b4607a1-1cc6-41f1-926f-892ae880e7a5" width="400">
 </div>
 <!-- 💬 Description -->
 <p align="center">
